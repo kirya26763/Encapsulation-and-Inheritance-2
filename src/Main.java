@@ -13,7 +13,7 @@ public class Main {
                 car, car2, truck, truck2, bicycle, bicycle2
         };
         ServiceStation station = new ServiceStation();
-        for (CheckService checkService: transports){
+        for (CheckService checkService : transports) {
             station.check(checkService);
         }
     }

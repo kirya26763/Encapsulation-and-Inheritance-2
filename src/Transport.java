@@ -29,7 +29,7 @@ public class Transport implements CheckService {
 
     @Override
     public void service() {
-        for (int i = 0; i < wheelsCount ; i++) {
+        for (int i = 0; i < wheelsCount; i++) {
             updateTyre();
         }
     }
